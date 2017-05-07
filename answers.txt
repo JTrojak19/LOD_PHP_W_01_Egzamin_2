@@ -1,0 +1,14 @@
+Pytanie 1 
+Relacja jeden do jednego - jeden element z danej tabeli może być połączony tylko z jednym elementem z drugiej tabeli; 
+Np. Numer pesel jest przypisany tylko do jeden osoby; osoba ma tylko jeden pesel 
+Relacja jeden do wielu - jeden element z danej tabeli może być połączony z wieloma elementami z innej tabeli; 
+Np. Klient może mieć wiele zamówień, ale zamówienie może mieć tylko jednego klienta 
+Relacja wiele do wielu - wiele elementów z tabeli może być połączonych z wieloma elementami z wieloma elementami z innej tabeli; 
+w SQL nie można tego zaimplementować w sposób dosłowny; relacje wiele do wielu tworzy się przez utworzenie dodatkowej tabeli, która
+przechowuje nam informacje na temat tej relacji 
+Np. zamówienie ma wiele przedmiotów; dany przedmiot może być w wielu zamówieniach 
+Pytanie 2 
+Abstrakcja - chowanie logiki, dzięki której mamy jakąś funkcjonalność 
+Dziedziczenie - klasa może "odziedziczyć" właściwości i metody klasy, która jest jej rodzicem 
+Hermetyzacja - ukrywanie danych poprzez stosowanie różnych poziomów dostępów (public, protected, private)
+Polimorfizm - podszywanie się pod inne klasy 
